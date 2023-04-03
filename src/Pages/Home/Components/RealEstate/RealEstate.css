@@ -1,0 +1,12 @@
+.bg-cut{
+    height: 450px;
+    background-position: center;
+    background-color:  #002550;
+    /* clip-path: polygon(0 0 , 50% 0 , 30% 100% , 0 100%); */
+}
+.bg-img-cut{
+    height: 450px;
+    background-position: center;
+    background-color:  #002550;
+    /* clip-path: polygon(50% 0 , 100% 0 , 100% 100% , 100% 30%); */
+}
