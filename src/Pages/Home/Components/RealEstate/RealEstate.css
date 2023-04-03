@@ -1,12 +1,9 @@
+
 .bg-cut{
-    height: 450px;
+    background-image: url(https://i.ibb.co/y4jQnG2/webaliser-TPTXZd9m-Oo-unsplash.jpg);
     background-position: center;
-    background-color:  #002550;
-    /* clip-path: polygon(0 0 , 50% 0 , 30% 100% , 0 100%); */
-}
-.bg-img-cut{
-    height: 450px;
-    background-position: center;
-    background-color:  #002550;
-    /* clip-path: polygon(50% 0 , 100% 0 , 100% 100% , 100% 30%); */
+    background-size: cover;
+    height: 420px;
+    width: 100%;
+    clip-path: polygon(30% 0 , 100% 0 , 100% 100% , 0 100%);
 }
