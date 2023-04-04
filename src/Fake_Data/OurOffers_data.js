@@ -4,7 +4,8 @@ const OurOffers_data = {
             "id": 1,
             "Product_img": "https://i.ibb.co/cLNYHT7/image-27.png",
             "Title": "Background verification",
-            "Details": "Assuring your capital is in safe hands, we provide detailed verification reports of the project and developer. These are customized and detailed..."
+            "Details": "Assuring your capital is in safe hands, we provide detailed verification reports of the project and developer. These are customized and detailed...",
+            "project_price": "INR 3000/Project"
         },
         {
             "id": 2,
