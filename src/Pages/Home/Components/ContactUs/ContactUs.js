@@ -7,7 +7,7 @@ import './ContactUs.css'
 const ContactUs = () => {
   const [value, setValue] = useState()
   return (
-    <section className='flex items-center'>
+    <section className='flex items-center mt-9'>
       <div className='p-9 '>
         {/* ContactUs heading  */}
         <div>
@@ -54,7 +54,7 @@ const ContactUs = () => {
           <form className='mr-6 my-4'>
             <div className='input-container'>
               <select className="select select-bordered w-full text-input text-sm">
-                <option className=''>I have booked but registration is not done</option>
+                <option selected className='text-black'>I have booked but registration is not done</option>
               </select>
               <label for="name" className='label'>
                 Stages

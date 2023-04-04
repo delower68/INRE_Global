@@ -3,7 +3,7 @@ import { BsArrowRightShort } from 'react-icons/bs';
 
 const Indentity = () => {
   return (
-    <div className='flex justify-center items-center mt-9 p-2 text-[#dbd9d9]'>
+    <div className='flex justify-center items-center mt-9 p-3 bg-[#dce0e3]'>
       <div className='w-1/2'>
         <img className='h-[400px] w-[2500px]' src='https://i.ibb.co/bb1YLwp/image-27-8.png'/>
       </div>

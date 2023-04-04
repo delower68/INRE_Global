@@ -29,15 +29,15 @@ const Blogs_data = {
             "Date": "09 jun 2022",
             "Poster": "By Admin",
         },
-        {
-            "id": 4,
-            "Profile_photo": "https://i.ibb.co/QFkz7Wr/image-27-7.png",
-            "Title": "Guide for personal property Buying ",
-            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...",
-            "Location": "Real Estate, Analysis",
-            "Date": "09 jun 2022",
-            "Poster": "By Admin",
-        }
+        // {
+        //     "id": 4,
+        //     "Profile_photo": "https://i.ibb.co/QFkz7Wr/image-27-7.png",
+        //     "Title": "Guide for personal property Buying ",
+        //     "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...",
+        //     "Location": "Real Estate, Analysis",
+        //     "Date": "09 jun 2022",
+        //     "Poster": "By Admin",
+        // }
     ]
 }
 

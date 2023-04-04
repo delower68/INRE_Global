@@ -18,7 +18,7 @@ const Navbar = () => {
                     <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
                         <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
                             <li>
-                                <a href="#" className="block py-2  text-black rounded  " aria-current="page">Home</a>
+                                <a href="#" className="block py-2 px-3  text-black rounded border-b-4 border-[#1A1A1A] " aria-current="page">Home</a>
                             </li>
                             <li>
                                 <a href="#" className="block py-2  text-black rounded  ">Our Offerings</a>
