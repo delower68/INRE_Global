@@ -12,7 +12,7 @@ const ContactUs = () => {
         {/* ContactUs heading  */}
         <div>
           <h1 className='text-2xl font-semibold text-black font-[Open Sans]'>Get In Touch With Us To Connect</h1>
-          <p className='font-semibold text-lg'>Contact Us</p>
+          <p className='font-semibold text-lg mt-4'>Contact Us</p>
         </div>
         {/* all input  */}
         <div className='mt-6 flex'>
