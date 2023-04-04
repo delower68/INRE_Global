@@ -6,7 +6,7 @@ import './OurOffers.css'
 
 const Ouroffers = () => {
   return (
-    <div>
+    <div className='mb-5'>
       {/* our offers heading  */}
       <div className='container text-center mt-9 ' >
         <h1 className='text-3xl font-extrabold text-black pb-2 border-b-4 border-[#1A1A1A] mx-96'>Our Offerings</h1>
@@ -26,21 +26,26 @@ const Ouroffers = () => {
       </div>
 
       {/* offers cards  */}
-      <div className='grid gap-5 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 border border-black rounded-lg' >
+      <div className='grid gap-3 xl:grid-cols-3  h-[560px] rounded-lg ' >
         {
           OurOffersData?.OurOffersData.map(data =>
-            <div className='border border-black m-3 rounded-lg'>
-            <div className='p-4 '>
-              <img className='w-[410px] h-[280px]' src={data?.Product_img} />
-              <p className='text-2xl font-semibold'>{data?.Title}</p>
-              <p className=''>{data?.Details}</p>
+            <div className='shadow-2xl	'>
+            <div className='p-5  h-[560px]   rounded-lg'>
+              <img className='w-[380px] h-[280px] mb-7' src={data?.Product_img} />
+              <p className='text-2xl font-semibold mb-4'>{data?.Title}</p>
+              <p className='text-justify h-[100px]'>{data?.Details}</p>
+              <div className='flex justify-between items-center mt-5  '>
+              <div className='flex items-center border border-black rounded p-3 w-[140px] '>
+                <button className=''>Contact Now</button>
+                <p className='pt-1'><BsArrowRightShort /></p>
+              </div>
+              <div className=''>
               {
                 data?.project_price &&
                 <p className=''>{data?.project_price}</p>
               }
-              <div className='flex items-center border border-black rounded p-3 w-[140px] mt-5 '>
-                <button className=''>Contact Now</button>
-                <p className='pt-1'><BsArrowRightShort /></p>
+              </div>
+              
               </div>
             </div>
             </div>
